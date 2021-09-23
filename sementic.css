@@ -1,0 +1,138 @@
+*{ 
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
+header{
+    background-image: linear-gradient(to bottom right,yellow,red);
+    text-align: center;
+    padding: 20px;
+    color:white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+header h1{
+    background-color: lightslategray;
+    padding: 5px;
+    border: 2px solid gainsboro;
+    display: inline-block;
+    border-radius: 0 25px 0 25px;
+}
+
+.banner {
+    position: relative;
+   
+}
+.banner img{
+    max-width: 100%;
+}
+.banner .welcome{
+    position: absolute;
+    top:30%;
+    background-color: orange;
+    color: white;
+    padding: 15px;
+}
+.banner h2{
+    font-size: 70px;
+}
+.banner h2 span{
+    font-size : 1.2em;
+    text-transform:capitalize;
+}
+nav{
+    background-color: #f4f4f4;
+    padding: 30px;
+    position: sticky;
+    top:80px;  white-space:nowrap;
+}
+.main-nav ul{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.main-nav  li{
+    display: inline-block;
+    width: 25%;
+}
+nav li a:hover{
+    background-color: orange;
+    color:red;
+}
+nav li a{
+    text-decoration: none; text-align: center;
+    padding: 20px;
+    border-radius: 10px ;
+    background-color: ghostwhite;
+}
+
+nav li a.join{
+    color: red;
+}
+
+main{
+    max-width:100%;
+    width: 1200px;
+    margin: 50px auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+main img{
+    text-decoration: none;
+}
+
+main h2{
+    color: orange;
+    margin-bottom: 5px;
+    font-size:xx-large;
+}
+main p{
+    line-height: 1.5em;
+}
+.image{
+   text-align: center;
+   margin: 50px 0;
+   white-space: nowrap;
+}
+.image li{
+    display: inline-block;
+    width: 50%;
+    margin: 0 5px;
+}
+.image li img{
+    max-width: 100%;
+}
+
+.joinUs{
+    position: relative;
+    background:#f4f4f4;
+    text-align: center;
+    padding: 40px 20px;
+}
+.box{
+    text-align:left;
+    margin: 10px auto;
+    border:1px solid black;
+    border: none;
+    max-width: 100%;
+    width: 1200px;
+   
+}
+.joinUs h2{
+    font-size: 32px;
+}
+
+form input{
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border:none;
+}
+
+footer {
+    background-image: linear-gradient(to bottom right,yellow,red);
+    text-align: center;
+    padding:20px 0;
+    color:white;
+}
